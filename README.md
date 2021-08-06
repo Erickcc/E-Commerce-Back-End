@@ -19,8 +19,9 @@ In order to be able to run the application:
         DB_USER=<mysql username>
         DB_PW=<mysql password>
         DB_NAME='ecommerce_db'
-    2. npm run seed
-    1. npm start
+    2. npm install
+    3. npm run seed
+    4. npm start
 
 # 
 ## Usage
