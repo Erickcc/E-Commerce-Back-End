@@ -5,9 +5,10 @@
 Simple e-commerce backend application with CRUD api calls that allows the user to modify the database through API design platforms such as Insomnia Core. This application was designed with a structure similar to those used by big e-commmerce business in such a way that it is possible to make CRUD API calls for the **products**, **categories** and **tags** models.
 
 ## Table of Contents
-<!-- - [Live URL](#live-url) -->
+
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo Video](#demo-video)
 - [Questions](#questions)
 
 # 
@@ -121,6 +122,7 @@ POST: localhost:3001/api/products/
     "product_name": "Basketball",
     "price": 200.00,
     "stock": 3,
+    "category_id", 1,
     "tagIds": [1, 2, 3, 4]
 }
 
@@ -140,8 +142,10 @@ POST: localhost:3001/api/tags/
 
 Example:
 ![API tags Image](/assets/images/api-tags.JPG "API Tags")
+#
+## Demo Video
+* [E-commerce Backend](https://drive.google.com/file/d/14BbzOZhvCRD7pZs8e-W0ZIwh0Rvm-j_d/view)
 
-<!-- ## Live URL -->
 # 
 ## Questions
 For further inquires, please contact me through Github or E-mail
